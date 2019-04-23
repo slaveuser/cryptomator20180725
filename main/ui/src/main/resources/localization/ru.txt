@@ -1,0 +1,121 @@
+app.name = Cryptomator
+# main.fxml
+main.emptyListInstructions = Нажмите здесь, чтобы добавить хранилище
+main.directoryList.contextMenu.remove = Удалить из списка
+main.directoryList.contextMenu.changePassword = Сменить пароль
+main.addDirectory.contextMenu.new = Создать новое хранилище
+main.addDirectory.contextMenu.open = Открыть имеющееся хранилище
+# welcome.fxml
+welcome.checkForUpdates.label.currentlyChecking = Проверка обновлений...
+# Does the first %s mean the new version number, and the second %s - the current version user has?
+welcome.newVersionMessage = Версия %1$s доступна для загрузки.\nТекущая версия %2$s.
+# initialize.fxml
+initialize.label.password = Пароль
+initialize.label.retypePassword = Повторите ввод пароля
+initialize.button.ok = Создать хранилище
+initialize.messageLabel.alreadyInitialized = Хранилище уже инициализировано
+initialize.messageLabel.initializationFailed = Невозможно инициализировать хранилище. См. подробности в файле журнала.
+# notfound.fxml
+notfound.label = Хранилище не найдено. Оно было перемещено?
+# upgrade.fxml
+upgrade.button = Обновить хранилище
+upgrade.version3dropBundleExtension.msg = Это хранилище необходимо преобразовать в новый формат.\n"%1$s" будет переименовано в "%2$s".\nПрежде чем продолжить, убедитесь, что синхронизация завершена.
+upgrade.version3dropBundleExtension.err.alreadyExists = Автоматическое преобразование не выполнено.\n"%s" уже существует.
+# unlock.fxml
+unlock.label.password = Пароль
+unlock.label.mountName = Имя диска
+unlock.label.winDriveLetter = Буква диска
+unlock.label.downloadsPageLink = Все версии Cryptomator
+# Дополнительные параметры
+unlock.label.advancedHeading = Дополнительно
+unlock.button.unlock = Разблокировать хранилище
+unlock.button.advancedOptions.show = Дополнительные опции
+unlock.button.advancedOptions.hide = Убрать настройки
+unlock.choicebox.winDriveLetter.auto = Автоназначение
+unlock.errorMessage.wrongPassword = Неверный пароль
+unlock.errorMessage.unsupportedVersion.vaultOlderThanSoftware = Неподдерживаемое хранилище. Оно было создано в более старой версии Cryptomator.
+unlock.errorMessage.unsupportedVersion.softwareOlderThanVault = Неподдерживаемое хранилище. Оно было создано в более новой версии Cryptomator.
+unlock.messageLabel.startServerFailed = Ошибка запуска сервера WebDAV.
+# change_password.fxml
+changePassword.label.oldPassword = Старый пароль
+changePassword.label.newPassword = Новый пароль
+changePassword.label.retypePassword = Повторите ввод пароля
+changePassword.label.downloadsPageLink = Все версии Cryptomator
+changePassword.button.change = Сменить пароль
+changePassword.errorMessage.wrongPassword = Неверный пароль
+changePassword.errorMessage.decryptionFailed = Ошибка дешифрования
+# unlocked.fxml
+unlocked.button.lock = Заблокировать хранилище
+# Does it mean "open" drive?
+unlocked.moreOptions.reveal = Открыть диск
+unlocked.moreOptions.copyUrl = Скопировать URL-адрес WebDAV
+unlocked.label.revealFailed = Не удалось выполнить команду
+unlocked.label.unmountFailed = Ошибка извлечения диска
+unlocked.label.statsEncrypted = зашифровано
+unlocked.label.statsDecrypted = расшифровано
+unlocked.ioGraph.yAxis.label = Пропускная способность (МиБ/с)
+# settings.fxml
+settings.version.label = Версия %s
+settings.checkForUpdates.label = Проверка обновлений
+settings.requiresRestartLabel = * Требуется перезапуск Cryptomator
+# tray icon
+tray.menu.open = Открыть
+tray.menu.quit = Выход
+tray.infoMsg.title = Все еще выполняется
+# Не нужно использовать жаргонизмы, а также прибегать к вкусовой правке.
+tray.infoMsg.msg = Cryptomator еще работает. Выйдите при помощи иконки в трее.
+tray.infoMsg.msg.osx = Cryptomator еще работает. Выйдите при помощи значка в строке меню.
+initialize.messageLabel.passwordStrength.0 = Очень слабый
+initialize.messageLabel.passwordStrength.1 = Слабый
+initialize.messageLabel.passwordStrength.2 = Приемлемый
+initialize.messageLabel.passwordStrength.3 = Стойкий
+initialize.messageLabel.passwordStrength.4 = Очень стойкий
+initialize.label.doNotForget = ВАЖНО\: Если вы забудете свой пароль, то восстановить данные будет невозможно.
+main.directoryList.remove.confirmation.title = Удаление хранилища
+main.directoryList.remove.confirmation.header = Вы действительно хотите удалить это хранилище?
+main.directoryList.remove.confirmation.content = Хранилище будет удалено только из списка. Чтобы стереть его окончательно, удалите файлы из файловой системы.
+upgrade.version3to4.msg = Это хранилище требуется преобразовать в новый формат.\nИмена зашифрованных папок будут обновлены.\nПеред продолжением убедитесь, что синхронизация завершена.
+upgrade.version3to4.err.io = Преобразование не выполнено из-за ошибки ввода-вывода. См. подробности в файле журнала.
+# upgrade.fxml
+upgrade.confirmation.label = Да, синхронизация завершена
+unlock.label.savePassword = Сохранить пароль
+unlock.errorMessage.unauthenticVersionMac = Не удалось проверить подлинность версии MAC.
+unlocked.label.mountFailed = Ошибка подключения к диску
+# А как назвать эту правку? Пожалуйста, перестаньте портить перевод.
+unlock.savePassword.delete.confirmation.title = Удалить сохраненный пароль
+unlock.savePassword.delete.confirmation.header = Вы действительно хотите удалить сохраненный пароль этого хранилища?
+unlock.savePassword.delete.confirmation.content = Сохраненный пароль этого хранилища будет немедленно удален из вашей системной связки ключей. Если вы снова захотите сохранить пароль, вам придется разблокировать хранилище с включенным параметром "Сохранить пароль".
+settings.debugMode.label = Режим отладки *
+upgrade.version3dropBundleExtension.title = Обновление хранилища версии 3 (расширение пакета)
+upgrade.version3to4.title = Обновление хранилища с версии 3 на 4
+upgrade.version4to5.title = Обновление хранилища с версии 4 на 5
+upgrade.version4to5.msg = Это хранилище нужно преобразовать в более новый формат.\nЗашифрованные файлы будут обновлены.\nПрежде чем продолжить, убедитесь, что завершена синхронизация.\n\nПримечание\: дата и время изменения всех файлов будут изменены на текущие на момент обработки.
+upgrade.version4to5.err.io = Преобразование не выполнено из-за ошибки ввода-вывода. См. подробности в файле журнала.
+unlock.label.mountAfterUnlock = Смонтировать диск
+unlock.label.revealAfterMount = Открыть диск
+unlocked.lock.force.confirmation.title = Ошибка блокировки %1$s
+unlocked.lock.force.confirmation.header = Заблокировать принудительно?
+unlocked.lock.force.confirmation.content = Это может быть вызвано тем, что другие программы по-прежнему обращаются к файлам в хранилище или из-за некоторых других проблем.\n\nТакие программы могут работать неправильно, а данные, которые еще не были записаны могут быть потеряны.
+# Авторазблокировка при старте (экспериментально)
+unlock.label.unlockAfterStartup = Авторазблокировка при запуске (экспериментально)
+unlock.errorMessage.unlockFailed = Ошибка разблокировки. См. подробности в файле журнала.
+unlocked.moreOptions.mount = Смонтировать диск
+unlocked.moreOptions.unmount = Извлечь диск
+upgrade.version5toX.title = Обновление версии хранилища
+upgrade.version5toX.msg = Это хранилище нужно преобразовать в новый формат. Прежде чем продолжить, убедитесь, что завершена синхронизация.
+main.createVault.nonEmptyDir.title = Ошибка создания хранилища
+main.createVault.nonEmptyDir.header = Выбранная папка не пуста
+# Выбранная папка уже содержит файлы (возможно скрытые). Хранилище может быть создано только в пустой папке.
+main.createVault.nonEmptyDir.content = В выбранной папке уже есть файлы (возможно, скрытые). Хранилище можно создавать только в пустой папке.
+unlock.label.mountPath = Путь монтирования
+unlock.label.mountPathButton = Применить
+settings.webdav.port.label = Порт WebDAV
+settings.webdav.port.prompt = 0 \= автовыбор
+settings.webdav.port.apply = Применить
+settings.webdav.prefGvfsScheme.label = Схема WebDAV
+settings.volume.label = Метод монтирования*
+settings.volume.webdav = WebDAV
+settings.volume.fuse = FUSE
+unlock.successLabel.vaultCreated = Vault was successfully created.
+unlock.successLabel.passwordChanged = Password was successfully changed.
+unlock.successLabel.upgraded = Cryptomator was successfully upgraded.

@@ -1,0 +1,114 @@
+app.name = Cryptomator
+# main.fxml
+main.emptyListInstructions = Clique aqui para adicionar um cofre
+main.directoryList.contextMenu.remove = Remover da lista
+main.directoryList.contextMenu.changePassword = Alterar senha
+main.addDirectory.contextMenu.new = Criar um novo cofre
+main.addDirectory.contextMenu.open = Abrir um cofre já existente
+# welcome.fxml
+welcome.checkForUpdates.label.currentlyChecking = Buscando por atualizações...
+welcome.newVersionMessage = Versão %1$s pode ser baixada. Esta é a versão %2$s.
+# initialize.fxml
+initialize.label.password = Senha
+initialize.label.retypePassword = Redigite a senha
+initialize.button.ok = Criar cofre
+initialize.messageLabel.alreadyInitialized = Cofre já inicializado
+initialize.messageLabel.initializationFailed = Não pôde inicializar o cofre. Veja o arquivo de log para mais detalhes.
+# notfound.fxml
+notfound.label = O cofre não pode ser encontrado. Pode ter sido movido?
+# upgrade.fxml
+upgrade.button = Atualizar cofre
+upgrade.version3dropBundleExtension.msg = Esse cofre necessita ser migrado para um novo formato. "%1$s" será renomeado para "%2$s". Por favor assegure que a sincronização esta  finalizada antes de proceder com a migração.
+upgrade.version3dropBundleExtension.err.alreadyExists = A migração automática falhou. "%s" já existe.
+# unlock.fxml
+unlock.label.password = Senha
+unlock.label.mountName = Nome do drive
+unlock.label.winDriveLetter = Letra do drive
+unlock.label.downloadsPageLink = Todas as versões do Cryptomator
+unlock.label.advancedHeading = Opções avançadas
+unlock.button.unlock = Abrir cofre
+unlock.button.advancedOptions.show = Mais opções
+unlock.button.advancedOptions.hide = Menos opções
+unlock.choicebox.winDriveLetter.auto = Atribuir automaticamente
+unlock.errorMessage.wrongPassword = Senha incorreta
+unlock.errorMessage.unsupportedVersion.vaultOlderThanSoftware = Cofre não suportado. Esse cofre foi criado por uma versão mais antiga do Cryptomator.
+unlock.errorMessage.unsupportedVersion.softwareOlderThanVault = Cofre não suportado. Esse cofre foi criado por uma versão mais nova do Cryptomator.
+unlock.messageLabel.startServerFailed = Falha ao iniciar servidor WebDAV.
+# change_password.fxml
+changePassword.label.oldPassword = Senha antiga
+changePassword.label.newPassword = Senha Nova
+changePassword.label.retypePassword = Redigitar senha
+changePassword.label.downloadsPageLink = Todas as versões do Cryptomator
+changePassword.button.change = Alterar senha
+changePassword.errorMessage.wrongPassword = Senha incorreta
+changePassword.errorMessage.decryptionFailed = Falha ao descriptografar
+# unlocked.fxml
+unlocked.button.lock = Fechar cofre
+unlocked.moreOptions.reveal = Mostrar drive
+unlocked.moreOptions.copyUrl = Copiar URL WebDAV
+unlocked.label.revealFailed = Falha de comando
+unlocked.label.unmountFailed = Falha ao ejetar drive
+unlocked.label.statsEncrypted = Criptografado
+unlocked.label.statsDecrypted = Descriptografado
+unlocked.ioGraph.yAxis.label = Taxa de transferência (Mbps)
+# settings.fxml
+settings.version.label = Versão %s
+settings.checkForUpdates.label = Verificar por atualizações
+settings.requiresRestartLabel = * Cryptomator precisa ser reiniciado
+# tray icon
+tray.menu.open = Abrir
+tray.menu.quit = Sair
+tray.infoMsg.title = Ainda em execução
+tray.infoMsg.msg = Cryptomator ainda está ativo. Finalize-o a partir do ícone da bandeja.
+tray.infoMsg.msg.osx = Cryptomator ainda está ativo. Finalize-o a partir do ícone da barra de menu.
+initialize.messageLabel.passwordStrength.0 = Muito fraca
+initialize.messageLabel.passwordStrength.1 = Fraca
+initialize.messageLabel.passwordStrength.2 = Razoável
+initialize.messageLabel.passwordStrength.3 = Forte
+initialize.messageLabel.passwordStrength.4 = Muito forte
+initialize.label.doNotForget = IMPORTANTE\: se você esquecer a sua senha, não haverá como recuperar os seus dados.
+main.directoryList.remove.confirmation.title = Remover cofre
+main.directoryList.remove.confirmation.header = Você realmente quer remover esse cofre?
+main.directoryList.remove.confirmation.content = O cofre somente será removido da lista. Para apagá-lo permanentemente, por favor apagar os arquivos do seu sistema de arquivos.
+upgrade.version3to4.msg = Esse cofre tem que ser migrado a um novo formato. Os nomes das pastas criptografadas serão atualizados. Por favor, assegure que a sincronização do cofre foi finalizada antes de iniciar procedimento de migração.
+upgrade.version3to4.err.io = Falha na migração devido a um erro de E/S. Veja o arquivo de log para mais detalhes.
+# upgrade.fxml
+upgrade.confirmation.label = Sim, tenho certeza de que a sincronização foi concluída
+unlock.label.savePassword = Armazenar senha
+unlock.errorMessage.unauthenticVersionMac = Não foi possível autenticar a versão do MAC.
+unlocked.label.mountFailed = Falha ao conectar o drive
+unlock.savePassword.delete.confirmation.title = Apagar a senha armazenada
+unlock.savePassword.delete.confirmation.header = Você realmente quer apagar a senha armazenada deste cofre?
+unlock.savePassword.delete.confirmation.content = A senha deste cofre que se encontra armazenada será imediatamente apagada de seu sistema. Se você quiser novamente armazenar sua senha, abra o seu cofre com a opção "Armazenar Senha" habilitada.
+settings.debugMode.label = Modo de Debug *
+upgrade.version3dropBundleExtension.title = Atualização para a versão 3 do cofre (Drop Bundle Extension)
+upgrade.version3to4.title = Atualização do cofre da versão 3 para 4
+upgrade.version4to5.title = Atualização do cofre da versão 4 para 5
+upgrade.version4to5.msg = Este cofre precisa ser migrado a um novo formato.\nOs arquivos criptografados serão atualizados.\nPor favor, assegure que a sincronização do cofre esteja finalizada antes de proceder com a migração para o novo formato.\n\nNota\: A data de modificação de todos os arquivos do cofre será alterada durante o processo para a data e hora corrente.
+upgrade.version4to5.err.io = A migração falhou devido a uma exceção de I/O. Ver arquivo de log para mais detalhes.
+unlock.label.mountAfterUnlock = Montar o Drive
+unlock.label.revealAfterMount = Mostrar o Drive
+unlocked.lock.force.confirmation.title = O bloqueio do %1$s falhou
+unlocked.lock.force.confirmation.header = Você quer forçar o bloqueio?
+unlocked.lock.force.confirmation.content = Isto pode ser causado por outros programas que seguem acessando arquivos no cofre ou porque algum outro problema ocorreu.\n\nProgramas que seguem acessando os arquivos podem não funcionar corretamente e os dados ainda não gravados por estes programas podem ser perdidos.
+unlock.label.unlockAfterStartup = Auto-desbloqueio ao Iniciar (Experimental)
+unlock.errorMessage.unlockFailed = O desbloqueio falhou. Veja o log para mais detalhes.
+unlocked.moreOptions.mount = Montar o Drive
+unlocked.moreOptions.unmount = Ejetar o Drive
+upgrade.version5toX.title = Atualização da Versão do Cofre
+upgrade.version5toX.msg = Este cofre precisa ser migrado a um novo formato. Por favor assegure que a sincronização foi finalizada antes de proceder.
+main.createVault.nonEmptyDir.title = Falha ao criar o cofre
+main.createVault.nonEmptyDir.header = O diretório escolhido não se encontra vazio
+main.createVault.nonEmptyDir.content = O diretório selecionado contém arquivos (possivelmente ocultos). Um cofre só pode ser criado num diretório vazio.
+unlock.label.mountPath = Local da montagem
+unlock.label.mountPathButton = Aplicar
+settings.webdav.port.label = WebDAV Porta
+settings.webdav.port.prompt = 0 \= Escolha Automática
+settings.webdav.port.apply = Aplicar
+settings.webdav.prefGvfsScheme.label = WebDAV schema
+settings.volume.label = Método de Montagem
+settings.volume.webdav = WebDAV
+settings.volume.fuse = FUSE
+unlock.successLabel.vaultCreated = Vault was successfully created.
+unlock.successLabel.passwordChanged = Password was successfully changed.
+unlock.successLabel.upgraded = Cryptomator was successfully upgraded.
